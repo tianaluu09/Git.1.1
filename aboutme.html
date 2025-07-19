@@ -1,0 +1,94 @@
+<!-- filepath: /aboutme-profile/aboutme-profile/aboutme.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tiana's KWK Scrollytelling</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      scroll-behavior: smooth;
+      color: #333;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .intro {
+      background: #f9f3ee;
+    }
+
+    .journey {
+      background: #e0f7fa;
+    }
+
+    .fun-facts {
+      background: #ffe0b2;
+    }
+
+    .fun-facts ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .fun-facts li {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #f06292;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #ec407a;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="intro">
+    <img src="https://i.pinimg.com/736x/d4/4b/37/d44b3781f76895afc690d8c73d6b8ba7.jpg" alt="Represents Me">
+    <h1>Tiana Luu</h1>
+    <h2>Welcome to My KWK Profile</h2>
+  </section>
+
+  <section class="journey">
+    <h2>My KWK & Coding Journey</h2>
+    <p>I started KWK in high school and completed 2 waves in Web Development and Data Science!</p>
+    <button class="button" onclick="alert('Thanks for scrolling!')">Say Hi</button>
+  </section>
+
+  <section class="fun-facts">
+    <h2>3 Fun Facts About Me</h2>
+    <ul>
+      <li>I was born on Valentine's Day 💖</li>
+      <li>I love jewelry 💍</li>
+      <li>My favorite movie is "An Incredibly True Story of Two Girls in Love" 🎬</li>
+    </ul>
+  </section>
+
+</body>
+</html>
